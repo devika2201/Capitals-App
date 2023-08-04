@@ -1,0 +1,86 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #93c5fd;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+}
+
+.card-container {
+  height: 40vh;
+  width: 50vw;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.select-capital {
+  width: 10vw;
+  font-weight: bold;
+  font-family: 'Roboto';
+  font-size: 15px;
+  height: 6vh;
+  padding: 10px;
+}
+
+.question-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.para {
+  padding: 10px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #1e293b;
+}
+
+.para1 {
+  padding: 10px;
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #1e293b;
+  font-weight: 500;
+  text-align: start;
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    height: 60vh;
+    width: 90vw;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+  }
+
+  .heading {
+    font-size: 20px;
+  }
+
+  .para {
+    font-size: 10px;
+  }
+
+  .select-capital {
+    width: 20vw;
+    font-weight: bold;
+    font-family: 'Roboto';
+    font-size: 10px;
+    height: 6vh;
+  }
+
+  .options {
+    font-size: 10px;
+  }
+}
